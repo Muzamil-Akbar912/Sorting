@@ -1,4 +1,5 @@
 public class SelectionSort {
+    // Selection Sort -> O(n2)...
     public static void sort(int arr[]) {
         for (int i = 0; i < arr.length-1; i++) {
             int minPos = i;
